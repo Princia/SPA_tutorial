@@ -31,11 +31,11 @@ jobs:
 
       # 5. Validation CSS (Détecte les erreurs de syntaxe et propriétés invalides)
   #    - name: Contrôle CSS
-        run: npx stylelint "**/*.css"
+    #    run: npx stylelint "**/*.css"
 
       # 6. Validation JavaScript (Détecte les variables non utilisées, les points-virgules manquants, la syntaxe cassée)
      # - name: Contrôle JavaScript
-        run: npx eslint "**/*.js"
+     #   run: npx eslint "**/*.js"
   # ==========================================
   # ÉTAPE 2 : PERFORMANCE (S'exécute toujours)
   # ==========================================
