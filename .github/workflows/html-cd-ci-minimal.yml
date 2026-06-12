@@ -96,5 +96,5 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }} #mdp login
           port: 22
           local_path: './'      
-          remote_path: ${{ secrets.REMOTE_PATH }} #ssh-princia.alwaysdata.net
-          ssh_private_key: ''
+          remote_path: ${{ secrets.REMOTE_PATH }} #/home/princia/www/
+          ssh_private_key: '' #
